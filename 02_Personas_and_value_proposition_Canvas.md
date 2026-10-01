@@ -22,3 +22,5 @@ Quali bisogni deve soddisfare? Quali difficolà incontra oggi? Considerate acces
 
 Le serve una stima semplice e personalizzata, da smartphone. Oggi bandi e regolamenti sono troppo tecnici, i dati sono
 sparsi su molti siti, circolano numeri senza fonte e in famiglia nessuno può guidarla.
+In casa si pensa che "l'università non fa per noi, costa troppo": nessuno sa che con il suo ISEE la borsa ADISU le spetta
+ed è garantita.

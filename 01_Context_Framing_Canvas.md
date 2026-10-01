@@ -7,6 +7,9 @@ Borsa ADISU, tasse di ateneo, affitto, trasporti e anni fuori corso sono informa
 stipendio dei laureati esistono, ma non vengono mai letti insieme ai costi. Così molte famiglie con ISEE basso
 rinunciano, oppure scelgono senza poter valutare costi e benefici.
 
+Pesa anche un pregiudizio culturale: "l'università costa troppo". Molte di queste famiglie non sanno di avere diritto alla
+borsa, che in Puglia è garantita a tutti gli idonei.
+
 ## Soluzione proposta
 
 Una web app che, dati ISEE, comune di residenza e corso, mette a confronto:
@@ -37,3 +40,4 @@ Ogni numero indica la fonte e se è misurato o stimato, da cui un indice di affi
 ## La proposta in una frase
 
 UniCosti Puglia dice a ogni futuro studente quanto gli costerà davvero l'università, al netto della borsa ADISU, e quanto potrà guadagnare dopo la laurea, così da scegliere il corso valutando costi e benefici.
+Più giovani da famiglie meno abbienti all'università significa un territorio più istruito.
