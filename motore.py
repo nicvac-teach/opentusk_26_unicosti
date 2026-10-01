@@ -142,13 +142,16 @@ class Calcolatore:
             return None
         chiave = {"fuorisede": "borsa_fuorisede", "pendolare": "borsa_pendolare", "in sede": "borsa_insede"}[st]
         base = d.p(chiave)
+        # incrementi e riduzioni si calcolano sull'importo base (bando art. 17 c.3-4)
         incr, note = 0.0, []
-        if s.isee < d.p("borsa_isee_max") * 0.5:
-            incr += d.p("borsa_incr_isee_basso"); note.append("+15% ISEE basso")
         tipo = d.t(chiave)
-        if s.genere == "F" and corso["stem"] == "1":
-            incr += d.p("borsa_incr_stem_studentesse"); note.append("+20% studentessa STEM")
+        if s.genere == "F" and corso["stem"] == "1":  # il +20% STEM comprende il +15% ISEE basso
+            incr = d.p("borsa_incr_stem_studentesse"); note.append("+20% studentessa STEM")
             tipo = peggiore(tipo, "S_fonte")  # la classificazione STEM dei corsi è nostra
+        elif s.isee <= d.p("borsa_isee_max") * 0.5:
+            incr = d.p("borsa_incr_isee_basso"); note.append("+15% ISEE basso")
+        if s.isee > d.p("borsa_isee_max") * 2 / 3:
+            incr -= d.p("borsa_rid_fascia3"); note.append("-20% ISEE in fascia 3")
         importo = base * (1 + incr)
         if anno_nel_corso <= legale:
             q = 1.0

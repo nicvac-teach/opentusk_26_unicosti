@@ -90,7 +90,10 @@ Lecce: stanza **derivata** = 426 × 9,25 / 12,88 ≈ 306 €/mese.
 
 - **Status (in sede, pendolare, fuorisede)**: stimato dalla distanza (linea d'aria × 1,25, soglia 60 km).
   Il bando usa tabelle ufficiali di comuni e tempi: l'utente può scegliere lo status a mano.
-- **Borsa**: si ipotizza che lo studente rispetti i requisiti di merito; semestre extra al 50% (regola nazionale, da verificare nel bando).
+- **Borsa** ([bando ADISU 2026/27](https://adisupuglia.it/output_allegato.php?id=1444063), copia in `raw/adisu/`): si ipotizza che lo studente
+  rispetti i requisiti di merito (CFU). Borsa piena per la durata legale, 50% nel 1° anno fuori corso ("ulteriore semestre", art. 7), poi zero.
+  Importo: +15% con ISEE ≤ 13.000 €, oppure +20% per le studentesse STEM (non cumulabili), −20% con ISEE > 17.333,33 € (art. 17).
+  Non sono calcolate le trattenute per i servizi (900 € per la mensa, 2.208 € per l'alloggio ADISU) e lo status usa i km, non i 60 minuti di viaggio del bando.
 - **Durata media**: AlmaLaurea la calcola **solo su chi si laurea**; chi abbandona non entra nel dato, quindi è ottimistica.
 - **Occupazione dopo la sola triennale**: bassa perché l'80–90% prosegue con la magistrale; non va confrontata con i 5 anni dei 3+2.
 - **Campioni piccoli**: alcune magistrali hanno meno di 20 intervistati (es. Biologia cellulare UniBa, Ing. meccanica LM UniSalento): l'app lo segnala.

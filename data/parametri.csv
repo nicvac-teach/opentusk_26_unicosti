@@ -4,9 +4,10 @@ borsa_ispe_max,56000,EUR,ADISU 2026/27,https://press.regione.puglia.it/-/diritto
 borsa_fuorisede,7172,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
 borsa_pendolare,4191,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
 borsa_insede,2891,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
-borsa_incr_isee_basso,0.15,quota,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,+15% se ISEE sotto il 50% della soglia,2026-09-30
-borsa_incr_stem_studentesse,0.2,quota,ADISU,https://adisupuglia.it/area_letturaNotizia/391787/pagsistema.html,R,+20% per le studentesse di corsi STEM (bando 2024/25; confermato negli indirizzi 2026/27),2026-09-30
-borsa_semestre_extra_quota,0.5,quota,nazionale,"DPCM 9 aprile 2001, art. 4 (da verificare nel bando ADISU)",S_fonte,"borsa per un semestre oltre la durata legale, al 50%",2026-09-30
+borsa_incr_isee_basso,0.15,quota,ADISU 2026/27,https://adisupuglia.it/output_allegato.php?id=1444063,R,+15% se ISEE <= 50% della soglia (bando art. 17 c.4),2026-09-30
+borsa_incr_stem_studentesse,0.2,quota,ADISU 2026/27,https://adisupuglia.it/output_allegato.php?id=1444063,R,"+20% per le studentesse di corsi STEM; non si somma al +15%, lo comprende (bando art. 17 c.4)",2026-09-30
+borsa_rid_fascia3,0.2,quota,ADISU 2026/27,https://adisupuglia.it/output_allegato.php?id=1444063,R,"-20% se ISEE > 2/3 della soglia (17.333,33 EUR), fascia 3 (bando art. 17 c.3)",2026-10-01
+borsa_semestre_extra_quota,0.5,quota,ADISU 2026/27,https://adisupuglia.it/output_allegato.php?id=1444063,R,"ulteriore semestre: nel 1° anno fuori corso metà dell'importo, poi nessuna borsa (bando art. 7 e art. 17 c.3)",2026-09-30
 copertura_idonei,1.0,quota,ADISU 2026/27,https://ildirigente.com/la-regione-puglia-garantisce-la-copertura-completa-delle-borse-di-studio-adisu-per-il-2026-2027/,M,"100% degli idonei riceve la borsa (66 mln EUR, ~28.000 idonei)",2026-09-30
 soglia_km_pendolare,60,km,ADISU,stima: il bando definisce lo status con tabelle di comuni/tempi di percorrenza,S,oltre questa distanza lo studente e' considerato fuorisede se prende casa; l'utente puo' forzare lo status,2026-09-30
 tassa_regionale_isee_1,146,EUR,Regione Puglia 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,ISEE <= 26.000,2026-09-30

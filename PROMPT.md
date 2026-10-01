@@ -144,6 +144,16 @@ Claude ha raccolto i dati da solo, documentando le fonti, e ha scritto il motore
   L'app mostra i tetti nella scheda "Fonti".
 - **Libri negli anni fuori corso** (proposta di Nicola): nuovo parametro `libri_quota_fuori_corso` = 0,25, di tipo S. I libri si comprano negli anni regolari; negli anni fuori corso restano pochi esami e la tesi.
 - **Prove:** motore su 9.600 e 6.400 combinazioni, 0 errori; app con AppTest, 0 errori.
+- **Borsa negli anni fuori corso** (domanda di Nicola). Verificata sul **bando ADISU 2026/27** (<https://adisupuglia.it/output_allegato.php?id=1444063>, copia in `raw/adisu/`):
+  - **la regola del motore era giusta:** la borsa dura quanto la durata legale + un semestre (art. 7); nel 1° anno fuori corso spetta il 50%, poi zero. `borsa_semestre_extra_quota` passa da S_fonte a R.
+  - **errori corretti nell'importo (art. 17):**
+    - mancava la **riduzione del 20% per la fascia 3** (ISEE > 17.333,33 €). Riguarda anche il caso predefinito con ISEE 18.000 €: la borsa da pendolare passa da 4.191 a 3.353 €;
+    - il +15% (ISEE ≤ 13.000 €) e il +20% STEM per le studentesse si sommavano: il +20% invece comprende il +15%;
+    - incrementi e riduzioni si calcolano sull'importo base; il 50% del fuori corso si applica all'importo spettante. Nuovo parametro `borsa_rid_fascia3`.
+  - **Altri punti dal bando, non ancora nel motore:**
+    - **trattenuta mensa** di 900 €: si applica a tutti i borsisti quando ADISU può dare un pasto al giorno, anche se non lo usano. In cambio il borsista ha il pasto, quindi il motore dovrebbe togliere 900 € dalla borsa e azzerare la voce mensa;
+    - **trattenuta alloggio** di 2.208 € per i fuorisede che hanno il posto letto ADISU;
+    - lo **status di fuorisede** si basa su almeno 60 minuti di viaggio con i mezzi pubblici (art. 8), non sui km.
 
 ---
 
@@ -216,10 +226,11 @@ oppure `python motore.py --isee 18000 --comune Altamura --percorso P09 --genere 
 
 Da fare:
 1. **Prova finale in locale:** `streamlit run app.py` e giro completo delle 3 schede, soprattutto la nuova sezione "Studenti come te" (grafici su tema chiaro e scuro).
-2. (Facoltativo) Parametri ancora di tipo S o S_fonte (`soglia_km_pendolare`, `fc_minimo_POLIBA`, `borsa_semestre_extra_quota`, affitti e altre stime in `parametri.csv`): cercarli a mano nelle fonti, senza API.
-3. (Facoltativo) Tasse Poliba 2026/27: quando sarà pubblicato il regolamento, aggiornare `tasse.csv` e i parametri `fc_*_POLIBA` (ora si usa il 2025/26).
-4. (Facoltativo) Pulizia: Streamlit segnala che `use_container_width` è deprecato (va sostituito con `width="stretch"`). Non blocca nulla.
-5. **Pitch:** punti forti da mostrare:
+2. Trattenuta mensa ADISU (900 €, bando art. 17 c.5): decidere se modellarla (borsa −900 €, voce mensa a zero per i borsisti).
+3. (Facoltativo) Parametri ancora di tipo S o S_fonte (`soglia_km_pendolare`, affitti, libri e altre stime in `parametri.csv`): cercarli a mano nelle fonti, senza API.
+4. (Facoltativo) Tasse Poliba 2026/27: quando sarà pubblicato il regolamento, aggiornare `tasse.csv` e i parametri `fc_*_POLIBA` (ora si usa il 2025/26).
+5. (Facoltativo) Pulizia: Streamlit segnala che `use_container_width` è deprecato (va sostituito con `width="stretch"`). Non blocca nulla.
+6. **Pitch:** punti forti da mostrare:
    - **dataset principale da dati.puglia.it:** microdati ADISU, una riga per borsista, 4 anni;
    - "Studenti come te": per esempio, tra i borsisti Poliba la quota di fuorisede è salita dal 22% (2020/21) al 33% (2023/24); i borsisti UniSalento sono passati da 4.144 a 5.362;
    - la fascia ISEE più alta dei borsisti segue la soglia di idoneità di ogni anno: 23.000 → 23.626 → 25.000 €;
