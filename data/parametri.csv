@@ -1,0 +1,55 @@
+chiave,valore,unita,ambito,fonte,tipo_dato,nota,data_consultazione
+borsa_isee_max,26000,EUR,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,ISEE universitario massimo per idoneita,2026-09-30
+borsa_ispe_max,56000,EUR,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,ISPE massimo per idoneita,2026-09-30
+borsa_fuorisede,7172,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
+borsa_pendolare,4191,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
+borsa_insede,2891,EUR/anno,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,importo base,2026-09-30
+borsa_incr_isee_basso,0.15,quota,ADISU 2026/27,https://press.regione.puglia.it/-/diritto-allo-studio-regione-puglia-approva-gli-indirizzi-per-il-bando-adisu-2026-2027,R,+15% se ISEE sotto il 50% della soglia,2026-09-30
+borsa_incr_stem_studentesse,0.2,quota,ADISU,https://adisupuglia.it/area_letturaNotizia/391787/pagsistema.html,R,+20% per le studentesse di corsi STEM (bando 2024/25; confermato negli indirizzi 2026/27),2026-09-30
+borsa_semestre_extra_quota,0.5,quota,nazionale,"DPCM 9 aprile 2001, art. 4 (da verificare nel bando ADISU)",S_fonte,"borsa per un semestre oltre la durata legale, al 50%",2026-09-30
+copertura_idonei,1.0,quota,ADISU 2026/27,https://ildirigente.com/la-regione-puglia-garantisce-la-copertura-completa-delle-borse-di-studio-adisu-per-il-2026-2027/,M,"100% degli idonei riceve la borsa (66 mln EUR, ~28.000 idonei)",2026-09-30
+soglia_km_pendolare,60,km,ADISU,stima: il bando definisce lo status con tabelle di comuni/tempi di percorrenza,S,oltre questa distanza lo studente e' considerato fuorisede se prende casa; l'utente puo' forzare lo status,2026-09-30
+tassa_regionale_isee_1,146,EUR,Regione Puglia 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,ISEE <= 26.000,2026-09-30
+tassa_regionale_isee_2,170,EUR,Regione Puglia 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,26.000 < ISEE <= 52.000,2026-09-30
+tassa_regionale_isee_3,195,EUR,Regione Puglia 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,ISEE > 52.000 o non presentato,2026-09-30
+bollo,16,EUR/anno,nazionale,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,imposta di bollo iscrizione,2026-09-30
+notax_UNIBA_anni_extra,2,anni,UniBa 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,no tax area valida fino a durata legale + 2 anni (con requisiti CFU),2026-09-30
+notax_POLIBA_anni_extra,1,anni,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,no tax area valida fino a durata legale + 1 anno (con requisiti CFU),2026-09-30
+notax_UNISALENTO_anni_extra,2,anni,UniSalento 2026/27,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R,no tax area (ISEE <= 25.000) senza limite di anni: la durata conta solo per la quota fuori corso,2026-09-30
+notax_UNIBA_isee,26000,EUR,UniBa 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,ISEE massimo della no tax area (art. 4.1.1),2026-09-30
+notax_POLIBA_isee,26000,EUR,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,ISEE massimo della no tax area,2026-09-30
+notax_UNISALENTO_isee,25000,EUR,UniSalento 2026/27,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R,quota reddito ridotta del 100% fino a 25.000 (poi riduzioni nelle fasce di tasse.csv),2026-09-30
+fc_anni_senza_penalita_UNIBA,1,anni,UniBa 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,maggiorazione dal 2° anno fuori corso (art. 4.4.3),2026-09-30
+fc_perc_UNIBA,0,quota,UniBa 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,nessuna maggiorazione percentuale,2026-09-30
+fc_fisso_UNIBA,50,EUR/anno,UniBa 2026/27,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R,+50 EUR dal 2° anno fuori corso (art. 4.4.3),2026-09-30
+fc_anni_senza_penalita_POLIBA,1,anni,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,penalizzazione oltre la durata legale + 1,2026-09-30
+fc_perc_POLIBA,0.06,quota,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,formula aumentata del 6%,2026-09-30
+fc_fisso_POLIBA,200,EUR/anno,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,... più 200 EUR,2026-09-30
+fc_max_POLIBA,3000,EUR/anno,Poliba 2025/26,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R,con la penalizzazione il contributo non supera 3.000 EUR,2026-09-30
+fc_anni_senza_penalita_UNISALENTO,2,anni,UniSalento 2026/27,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R,quota fuori corso dal 3° anno fuori corso (studente meritevole),2026-09-30
+fc_perc_UNISALENTO,0,quota,UniSalento 2026/27,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R,nessuna maggiorazione percentuale,2026-09-30
+fc_fisso_UNISALENTO,200,EUR/anno,UniSalento 2026/27,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R,"quota fuori corso per studente meritevole (non meritevole: 200 + 100 per anno oltre il 2°, + 140)",2026-09-30
+abb_urbano_studenti_Bari,12,EUR/mese,ADISU/AMTAB,https://adisupuglia.it/pagina116420_servizio-trasporti.html/,M,abbonamento urbano agevolato studenti,2026-09-30
+abb_urbano_studenti_Lecce,12,EUR/mese,ADISU/SGM,https://adisupuglia.it/pagina116420_servizio-trasporti.html/,M,10-12 EUR/mese; preso il valore alto,2026-09-30
+bonus_trasporti_isee_max,13000,EUR,Regione Puglia 2026/27,https://www.regione.puglia.it/web/lavoro-e-formazione/-/bonus-trasporti-studenti-2026-2027,R,-50% abbonamenti extraurbani ott-mag per ISEE <= 13.000 (fino a esaurimento fondi),2026-09-30
+bonus_trasporti_quota,0.5,quota,Regione Puglia 2026/27,https://www.regione.puglia.it/web/lavoro-e-formazione/-/bonus-trasporti-studenti-2026-2027,R,,2026-09-30
+bonus_trasporti_mesi,8,mesi,Regione Puglia 2026/27,https://www.regione.puglia.it/web/lavoro-e-formazione/-/bonus-trasporti-studenti-2026-2027,R,ottobre-maggio,2026-09-30
+mesi_abbonamento,10,mesi,ipotesi,ipotesi di calendario accademico (set-giu),D,mesi di pendolarismo all'anno; ipotesi di calendario accademico,2026-09-30
+pasto_mensa_Bari,6.5,EUR,ADISU Bari,https://adisupuglia.it/pagina116402_ristorazione.html/,M,prezzo intero; ai borsisti il pasto e' gratuito ma il valore e' trattenuto dalla borsa,2026-09-30
+pasto_mensa_Lecce,6.5,EUR,ADISU Lecce,assunto uguale a Bari,S,,2026-09-30
+pasti_anno_fuorisede,200,pasti/anno,ipotesi,1 pasto al giorno per ~200 giorni di lezione,S,,2026-09-30
+pasti_anno_pendolare,120,pasti/anno,ipotesi,~3 giorni a settimana in sede,S,,2026-09-30
+pasti_anno_insede,60,pasti/anno,ipotesi,~1-2 pasti a settimana in mensa,S,,2026-09-30
+spesa_alimentare_extra_fuorisede,150,EUR/mese,stima,colazione/cena a casa; da stimare con fonte (es. ISTAT spese famiglie),S,,2026-09-30
+affitto_mq_Bari,12.88,EUR/mq/mese,Immobiliare.it ago 2026,https://www.immobiliare.it/mercato-immobiliare/puglia/bari/,M,prezzo medio richiesto,2026-09-30
+affitto_mq_Lecce,9.25,EUR/mq/mese,Immobiliare.it ago 2026,https://www.immobiliare.it/mercato-immobiliare/puglia/lecce/,M,prezzo medio richiesto,2026-09-30
+stanza_singola_Bari,426,EUR/mese,"Skuola.net su dati Immobiliare.it Insights, ago 2026",https://www.corrieredelleconomia.it/2026/08/31/bari-affitti-per-gli-studenti-in-aumento-stanze-singole-a-426-euro-al-mese/,M,media stanze singole,2026-09-30
+stanza_singola_Foggia,259,EUR/mese,"Skuola.net su dati Immobiliare.it Insights, ago 2026",https://www.corrieredelleconomia.it/2026/08/31/bari-affitti-per-gli-studenti-in-aumento-stanze-singole-a-426-euro-al-mese/,M,,2026-09-30
+stanza_singola_Lecce,306,EUR/mese,derivato,stanza Bari x (EUR/mq Lecce / EUR/mq Bari) = 426 x 9.25/12.88,D,nessun dato diretto trovato per Lecce,2026-09-30
+mesi_affitto,11,mesi,ipotesi,contratti studenti tipicamente 10-12 mesi,D,ipotesi di calendario accademico,2026-09-30
+viaggi_casa_fuorisede,25,EUR/mese,stima,rientri a casa (treno/bus) 1-2 volte al mese,S,,2026-09-30
+libri_materiale,400,EUR/anno,stima,nessuna fonte specifica per universitari trovata,S,candidato per stima con Claude + ricerca web,2026-09-30
+libri_quota_fuori_corso,0.25,quota,ipotesi,stima: negli anni fuori corso i libri sono già stati comprati; restano pochi esami e la tesi,S,quota della spesa annuale per libri e materiale negli anni fuori corso,2026-09-30
+spese_varie,40,EUR/mese,stima,"telefono, cancelleria, piccole spese",S,,2026-09-30
+fattore_strada,1.25,coefficiente,ipotesi,"distanza stradale ~ 1,25 x distanza in linea d'aria",D,la distanza in linea d'aria e' calcolata da coordinate (misurata),2026-09-30
+mesi_extra_spesa,10,mesi,ipotesi,mesi di permanenza in citta per spese alimentari/varie,D,ipotesi di calendario accademico,2026-09-30

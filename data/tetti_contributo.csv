@@ -1,0 +1,8 @@
+ateneo,fase,isee_da,isee_a,alpha,beta,formula_originale,fonte,tipo_dato
+UNIBA,entro,26000,28000,0.0455,-591.5,"(ISEE-13000)x0,07x0,65 (art. 4.5 c.1)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,entro,28000,30000,0.0595,-773.5,"(ISEE-13000)x0,07x0,85 (art. 4.5 c.1)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,oltre,0,22000,0,200,200 (art. 4.5 c.2),https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,oltre,22000,25000,0,400,400 (art. 4.5 c.2),https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,oltre,25000,26000,0.0525,-682.5,"(ISEE-13000)x0,105x0,50 (art. 4.5 c.2)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,oltre,26000,28000,0.07875,-1023.75,"(ISEE-13000)x0,105x0,75 (art. 4.5 c.2)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,oltre,28000,30000,0.0945,-1228.5,"(ISEE-13000)x0,105x0,90 (art. 4.5 c.2)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R

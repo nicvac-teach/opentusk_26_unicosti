@@ -1,0 +1,21 @@
+id,nome,corso_1,corso_2,tipo_dato,nota
+P01,UniBa - Informatica (3 anni),UB-INF-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P02,UniBa - Informatica + Computer science (3+2),UB-INF-L,UB-INF-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P03,UniBa - Economia e commercio (3 anni),UB-ECO-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P04,"UniBa - Economia e commercio + Economia, finanza e impresa (3+2)",UB-ECO-L,UB-ECO-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P05,UniBa - Scienze biologiche (3 anni),UB-BIO-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P06,UniBa - Scienze biologiche + Biologia cellulare e molecolare (3+2),UB-BIO-L,UB-BIO-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P07,UniBa - Giurisprudenza (ciclo unico 5 anni),UB-GIU,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P08,Poliba - Ing. informatica e automazione (3 anni),PB-INF-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P09,Poliba - Ing. informatica (3+2),PB-INF-L,PB-INF-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P10,Poliba - Ing. civile e ambientale (3 anni),PB-CIV-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P11,Poliba - Ing. civile e ambientale + Ing. civile (3+2),PB-CIV-L,PB-CIV-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P12,Poliba - Ing. gestionale (3 anni),PB-GES-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P13,Poliba - Ing. gestionale (3+2),PB-GES-L,PB-GES-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P14,UniSalento - Economia aziendale (3 anni),US-ECO-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P15,"UniSalento - Economia aziendale + Management, controllo e finanza con IA (3+2)",US-ECO-L,US-ECO-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P16,UniSalento - Scienze biologiche (3 anni),US-BIO-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P17,UniSalento - Scienze biologiche + Biologia sperimentale ed applicata (3+2),US-BIO-L,US-BIO-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P18,UniSalento - Ing. meccanica (3 anni),US-MEC-L,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P19,UniSalento - Ing. meccanica (3+2),US-MEC-L,US-MEC-LM,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso
+P20,UniSalento - Giurisprudenza (ciclo unico 5 anni),US-GIU,,S,abbinamento triennale-magistrale scelto a mano tra corsi dello stesso ateneo e area: verificare i requisiti di accesso

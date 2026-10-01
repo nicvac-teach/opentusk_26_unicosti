@@ -1,0 +1,22 @@
+ateneo,isee_da,isee_a,alpha,beta,formula_originale,fonte,tipo_dato
+UNIBA,0,12500,0,706.71,"706,71 (dal 2° anno fuori corso; entro la durata legale + 2 vale la no tax area)",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,12500,25000,0.0412224,198.06,"[(ISEE+4804,59)/12500]x515,28",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,25000,50000,0.0210248,818.74,"[(ISEE+38941,82)/25000]x525,62",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,50000,100000,0.0097512,1524.88,"2012,44+[(ISEE-50000)/50000]x487,56",https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+UNIBA,100000,1000000000,0,2950,massimo,https://www.uniba.it/it/ateneo/statuto-regolamenti/regolamenti-generali/regolamento-contribuzione-studentesca-2026-2027,R
+POLIBA,0,26000,0,0,T = 0,https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R
+POLIBA,26000,29881,0.1414,-3676.4,"T = 1,01 x 0,14 x (ISEE-26000)",https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R
+POLIBA,29881,90000,0.02309533,0,"T = 1,01 x (686/30000) x ISEE",https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R
+POLIBA,90000,1000000000,0,2121,"Tmax = 1,01 x 2100",https://web.poliba.it/sites/default/files/didattica/regolamento_contribuzione_studentesca_politecnico_di_bari_25_26.pdf,R
+UNISALENTO,0,25000,0,0,QRED ridotta 100% (ISEE <= 25.000),https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,25000,26000,0.0314815,-409.26,"(ISEE-13000)/27000x1700, riduzione 50%",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,26000,28000,0.0472222,-613.89,"(ISEE-13000)/27000x1700, riduzione 25%",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,28000,30000,0.0566667,-736.67,"(ISEE-13000)/27000x1700, riduzione 10%",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,30000,40000,0.0598148,-777.59,"(ISEE-13000)/27000x1700, riduzione 5%",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,40000,45000,0,1700,1700+parte_intera[(ISEE-40000)/5000]x40,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,45000,50000,0,1740,1700+parte_intera[(ISEE-40000)/5000]x40,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,50000,55000,0,1780,1700+parte_intera[(ISEE-40000)/5000]x40,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,55000,60000,0,1820,1700+parte_intera[(ISEE-40000)/5000]x40,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,60000,80000,0.042,-588,"(ISEE-14000)x0,00003x1400",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,80000,80666.67,0.045,-630,"(ISEE-14000)x0,00003x1500",https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
+UNISALENTO,80666.67,1000000000,0,3000,massimo,https://www.unisalento.it/documents/20143/132441/Allegato-A_26-27.pdf/4ad07be3-c288-f2b9-aa2d-4bac262b2bce,R
